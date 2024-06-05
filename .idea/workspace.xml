@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfea0643-33f3-43b8-80ad-4395166d166d" name="Changes" comment="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3">
-      <change afterPath="$PROJECT_DIR$/IT1007 Lab 4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encrypted_map.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure.csv" afterDir="false" />
+    <list default="true" id="dfea0643-33f3-43b8-80ad-4395166d166d" name="Changes" comment="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3&#10;Added Lab 4, reading and writing csv files">
+      <change afterPath="$PROJECT_DIR$/IT1007 Lab 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soccat.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +47,10 @@
     "Python.IT1007 Lab 2.executor": "Run",
     "Python.IT1007 Lab 3.executor": "Run",
     "Python.IT1007 Lab 4.executor": "Run",
+    "Python.IT1007 Lab 5.executor": "Run",
+    "Python.circle_pic.executor": "Run",
+    "Python.gauss_filter.executor": "Run",
+    "Python.rotate_image.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Yukan/PycharmProjects/IT1007 Lab 2",
@@ -85,7 +86,8 @@
       <workItem from="1716294316140" duration="1648000" />
       <workItem from="1716381604689" duration="3117000" />
       <workItem from="1716384854056" duration="1303000" />
-      <workItem from="1716467523232" duration="1962000" />
+      <workItem from="1716467523232" duration="3481000" />
+      <workItem from="1716813021085" duration="2162000" />
     </task>
     <task id="LOCAL-00001" summary="Added Monte_carlo pi approximation.">
       <option name="closed" value="true" />
@@ -103,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716386122547</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3&#10;Added Lab 4, reading and writing csv files">
+      <option name="closed" value="true" />
+      <created>1716469940921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469940921</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3&#10;Added Lab 4, reading and writing csv files">
+      <option name="closed" value="true" />
+      <created>1716469955618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469955618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,12 +142,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added Monte_carlo pi approximation." />
     <MESSAGE value="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3" />
+    <MESSAGE value="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3&#10;Added Lab 4, reading and writing csv files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Monte_carlo pi approximation for Lab 2&#10;Added Lab 3&#10;Added Lab 4, reading and writing csv files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/IT1007_Lab_2$IT1007_Lab_4.coverage" NAME="IT1007 Lab 4 Coverage Results" MODIFIED="1716469481333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IT1007_Lab_2$IT1007_Lab_4.coverage" NAME="IT1007 Lab 4 Coverage Results" MODIFIED="1716469876517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IT1007_Lab_2$gauss_filter.coverage" NAME="gauss_filter Coverage Results" MODIFIED="1716813150989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IT1007_Lab_2$IT1007_Lab_5.coverage" NAME="IT1007 Lab 5 Coverage Results" MODIFIED="1716814554829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IT1007_Lab_2$IT1007_Lab_3.coverage" NAME="IT1007 Lab 3 Coverage Results" MODIFIED="1716386064004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IT1007_Lab_2$IT1007_Lab_2_Q1a.coverage" NAME="IT1007 Lab 2 Q1a Coverage Results" MODIFIED="1716294961084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/NUS/1819 Sem 1/IT1007" />
+    <SUITE FILE_PATH="coverage/IT1007_Lab_2$rotate_image.coverage" NAME="rotate_image Coverage Results" MODIFIED="1716813209206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IT1007_Lab_2$circle_pic.coverage" NAME="circle_pic Coverage Results" MODIFIED="1716813099205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IT1007_Lab_2$IT1007_Lab_2.coverage" NAME="IT1007 Lab 2 Coverage Results" MODIFIED="1716382291524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Python Projects" />
   </component>
 </project>
